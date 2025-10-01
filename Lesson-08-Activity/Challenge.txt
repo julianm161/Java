@@ -1,0 +1,57 @@
+
+-
+     
+Challenge 1:
+
+Write a function "print" which takes in a string and displays it to the console. Test the function to make sure it works.
+void print( string msg){
+    System.out.printIn(msg);
+}
+
+
+Challenge 2:
+
+Write a function "FtoC" that converts temperature in degrees Fahrenheit to Celsius. The function will take in temperature in Fahrenheit and return the temperature in Celcius. 
+Google the formula.
+double FtoC ( double F) {
+    double c = (F-32) * 9/5.0;
+    return c;
+}
+
+   
+
+Challenge 3:
+
+Write a function "sphereVolume" that calculate the volume of a sphere. The function will take in the radius and return the volume of a sphere.
+Google the formula.
+
+double sphereVolume(double r) {
+    return (4.0 / 3.0) * Math.PI * Math.pow(r, 3);
+}
+
+   
+
+Challenge 4:
+
+Write a function "coneVolume" that calculate the volume of a cone. The function will take in the radius and a height and return the volume of a cone.
+Google the formula.
+
+double coneVolume(double radius, double height) {
+    return (1.0 / 3.0) * Math.PI * Math.pow(radius, 2) * height;
+}
+
+   
+
+
+Challenge 5:
+
+Write a function "distance" that calculate the distance between two points (x1,y1) and (x2,y2). The function will need to take paramaters that represents two points.
+Google the formula.
+public static double distance(double x1, double y1, double x2, double y2) {
+    return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+    
+}
+
+
+
+   
